@@ -1,0 +1,64 @@
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+
+/* navbar styles starts here */
+    nav
+    {
+        flex-direction: column;
+        padding: 37px 50px;
+    justify-content: center;
+    gap: 32px;
+    box-shadow:  none;
+    }
+  
+    .nav-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+/* navbar styles starts here */
+
+
+/* banner styles starts here */
+    
+.banner-container {
+    flex-direction: column-reverse;
+    padding: 0 50px;
+    align-items: center;    
+}
+.banner-content {
+    width: 100%;
+    text-align: center;
+    margin: 130px;
+}
+
+.banner-title-1{
+    font-size: 2.25rem;
+}
+
+.banner-title-2{
+    font-size: 4.5rem;
+}
+
+.banner-description{
+    padding: 15px 0 25px 30px;
+    font-size: 1rem;
+}
+ .banner-btn {
+    justify-content: center;
+} 
+.btn-1{
+    padding: 10px 15px;
+}
+.btn-2{
+    padding: 10px 15px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/*banner styles end here   */
+    
+    
+}
