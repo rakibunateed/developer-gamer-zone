@@ -29,7 +29,7 @@
 .banner-content {
     width: 100%;
     text-align: center;
-    margin: 130px;
+    margin: 130px 130px 80px;
 }
 
 .banner-title-1{
@@ -59,6 +59,44 @@
 }
 
 /*banner styles end here   */
+
+
+/* gamer style start here */
+.gamer {
+    padding: 55px 40px 0 40px;
+    flex-direction: column;
+    background: none;
+    text-align: center;
+}
+
+.gamer-img {
+    width: 100%;
+}
+
+.gamer-content {
+    width: 100%;
+    text-align: center;
+}
+.gamer-title {
+    font-size: 2.5rem;
+}
+
+.gamer-description{
+    margin: 30px 0;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.gamer-info{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.gamer-info span {
+    font-size: 1.5rem; 
+    line-height: 30px; 
+}
     
     
 }
