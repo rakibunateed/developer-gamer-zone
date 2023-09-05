@@ -70,14 +70,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 240px;
+    padding: 0 240px 0 0;
 }
 
 .banner-content {
     width: 50%;
     text-align: left;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat; 
+    padding:148px 0 100px 240px ;
 }
-
 .banner-title-1 {
     color: #0B0223;
     font-size: 3rem;
@@ -140,12 +142,9 @@ nav {
 
 }
 
-/* .banner-img {
-    width: 50%;
-} */
-
 .banner-img img {
     width: 100%;
+    padding-top: 30px;
 }
 /* banner styles end here */
 
@@ -206,3 +205,162 @@ nav {
     line-height: 45px;
 }
 /* gamer styles end here */
+
+/* online games styles starts here */
+
+.online-games-container {
+    padding: 120px 240px 0 240px;
+    text-align: center;
+}
+.online-games-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.online-games-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.online-games-description{
+    margin: 5px 0 48px 0;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card-img {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.play-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent white;
+}
+.card-img:hover .play-button {
+    opacity: 1;
+}
+.card-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* online games styles end here */
+
+/* Play instantly styles starts here */
+
+.play-instantly-container {
+    padding: 0 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.play-instantly-content {
+    width: 50%;
+    text-align: right;
+}
+
+.play-instantly-title {
+    color: #0B0223;
+font-size: 3rem;
+font-weight: 700;
+line-height: 60px;
+margin-bottom: 24px;
+}
+.play-instantly-title span{
+    color:  #F948B2;
+
+}
+
+.play-instantly-description {
+    color: #534C64;
+text-align: right;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 30px;
+}
+
+.play-instantly-img {
+    width: 50%;
+}
+
+.play-instantly-img .img-1 {
+    width: 80%;
+    position: relative;
+    top: 85px;
+    right: -20%;
+
+}
+
+.play-instantly-img .img-2 {
+    width: 40%;
+    position: relative;
+    top: -85px;
+    left: 0px;
+}
+
+/* play instantly styles end here */
+
+/* veraity section styles starts here  */
+
+.variety-container {
+    padding: 120px 240px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+     justify-content: center;
+    align-items: center; 
+    /* flex-wrap: wrap; */
+    gap: 27px;
+}
+
+.btn-variety {
+    padding: 10px;
+    color: #0B0223;
+    background: #FFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-variety:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 50px;
+
+}
+

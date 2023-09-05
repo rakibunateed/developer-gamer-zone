@@ -24,12 +24,15 @@
 .banner-container {
     flex-direction: column-reverse;
     padding: 0 50px;
-    align-items: center;    
+    align-items: center; 
+  
 }
 .banner-content {
     width: 100%;
     text-align: center;
-    margin: 130px 130px 80px;
+     margin: 40px 130px 40px;
+    padding:20px 20px 20px ;  
+   
 }
 
 .banner-title-1{
@@ -56,14 +59,14 @@
 
 .banner-img {
     width: 100%;
-}
+} 
 
 /*banner styles end here   */
 
 
 /* gamer style start here */
 .gamer {
-    padding: 55px 40px 0 40px;
+    padding: 40px 40px 0 40px;
     flex-direction: column;
     background: none;
     text-align: center;
@@ -94,9 +97,109 @@
 }
 
 .gamer-info span {
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
     line-height: 30px; 
 }
+
+/* gamer styles end here */
+
+
+/* online games styles starts here */
+.online-games-container {
+    padding: 50px 50px 0 50px;
+    margin-top: 50px;
+}
+
+.online-games-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.online-games-title span{
+    font-size: 2rem;
+}
+
+.online-games-description {
+    margin: 5px 0 40px 0;
+    font-size: 0.75rem;
+}
+
+.card {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-description {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+/* online games styles end here */
+
+/* play instantly styles start here */
+
+.play-instantly-container {
+    padding: 50px 50px;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-instantly-content {
+    width: 100%;
+    text-align: center;
+}
+
+.play-instantly-title{
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+.play-instantly-description{
+    text-align: center;
+    text-decoration: none;
+}
+
+.play-instantly-img {
+    width: 100%;
+}
+
+.play-instantly-img .img-1 {
+    width: 80%;
+    top: 45px;
+    right: -20%;
+}
+
+.play-instantly-img .img-2 {
+    width: 40%;
+    top: -45px;
+    left: 0;
+}
+
+/* play instantly styles end here */
+
+/* variety styles starts here */
+
+.variety-container {
+   padding: 40px 40px; 
+   gap: 10px; 
+   display: grid; 
+   grid-template-columns: repeat(3,1fr); 
+}
+
+ .btn-variety {
+    padding: 5px;
     
+}  
+.btn-variety:hover {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 50px;
+}
+ .btn-variety img{ 
+    width: 35px; 
+}  
+ /* variety styles end here */
+ 
+ 
     
 }
