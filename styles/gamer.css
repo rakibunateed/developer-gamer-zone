@@ -344,11 +344,8 @@ nav {
     grid-template-columns: repeat(5,1fr);
     justify-content: center;
     align-items: center; 
-    gap: 27px;
-    
+    gap: 27px;  
 }
-
-
 .btn-variety {
     padding: 10px;
     color: #0B0223;
