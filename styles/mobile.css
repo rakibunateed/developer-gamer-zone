@@ -200,6 +200,42 @@
 }  
  /* variety styles end here */
  
- 
-    
+ /* footer styles start here */
+ .category-container {
+    padding: 60px 50px;
+    gap: 0px;
+}
+
+.btn-category {
+    padding: 10px;
+    gap: 10px;
+}
+
+/* This is Footer Section  */
+
+.footer-container {
+    padding: 80px 50px;
+}
+
+.social-links {
+    margin: 45px 0;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+.link-icons {
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.important-links {
+    margin: 45px 0 10px 0;
+    gap: 15px;
+    font-size: 0.80rem;
+}
+
+.info {
+    font-size: 0.75rem;
+}
+ /* footer styles end here */  
 }
